@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --cor0: #023859;
+    --cor1: #0367A6;
+    --cor2: #57F28D;
+    --cor3: #2CBF42;
+    --cor4: #20732D;
+}
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header{
+    background-color: white;
+    padding:20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo{
+    color: var(--cor0);
+}
+
+.logo h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.menu{
+    width: 80%;
+    text-align: right;
+}
+
+.menu a{
+    color: var(--cor0);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+}
+
+.menu a:hover{
+    color: var(--cor3);
+}
+
+.menu .btn-menu{
+    background-color: var(--cor0);
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+}
+
+.menu .btn-menu:hover{
+    background-color: var(--cor1);
+    color: white;
+}
