@@ -18,6 +18,7 @@
     margin:0 auto;
     padding: 0 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 header{
@@ -28,6 +29,7 @@ header{
 
 .logo{
     color: var(--cor0);
+    cursor: pointer;
 }
 
 .logo h2{
@@ -63,4 +65,55 @@ header{
 .menu .btn-menu:hover{
     background-color: var(--cor1);
     color: white;
+}
+
+/*
+section main
+*/
+
+section.main{
+    background-image: url(img/logo\ 3.jpeg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.main__cta h2{
+    color: var(--cor2);
+    font-size: 40px;
+}
+
+.main__cta p{
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.diferenciais{
+    display: flex;
+}
+
+.diferencial-single{
+    background-color: white;
+    width: 24%;
+    margin-right: 1%;
+    padding: 50% 20px;
+}
+
+.diferencial-single img{
+    color: var(--cor0);
+    width: 500px;
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
